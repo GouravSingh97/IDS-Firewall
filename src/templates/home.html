@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Firewalls & IDS</title>
+      
+        <!-- Animation/Bootstrap CSS Files -->
+        <link href="../static/bs/aos/aos.css" rel="stylesheet">
+        <link href="../static/bs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/bs/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="../static/bs/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="../static/bs/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="../static/bs/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+        <!-- Main CSS File -->
+        <link href="../static/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+      
+        <!-- ======= Title Screen Section ======= -->
+        <section id="title" class="d-flex align-items-center">
+            <div class="container-fluid" data-aos="fade-up">
+                <div class="row justify-content-center">
+                    <!-- Site title -->
+                    <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                        <h1>Firewalls & <br> Intrusion Detection Systems</h1>
+                    </div>
+                    <!-- Firewall & IDS Logo  -->
+                    <div class="col-xl-4 col-lg-6 order-1 order-lg-2 tile-img" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="../static/img/Server-bro.png" class="img-fluid animated" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <main id="main">
+
+            <!-- ======= Overview Section ======= -->
+            <section id="overview" class="overview">
+                <div class="container">
+                    <div class="row">
+                        <!--  -->
+                        <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                            <img src="../static/img/Server status-bro.png" class="img-fluid" alt="">
+                        </div>
+                        <!--  -->
+                        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                            <!--  -->
+                            <h3>Overview</h3>
+                            
+                            <!-- project overview / goals -->
+                            <p class="fst-italic"> 
+                                In today's networked landscape, protecting sensitive data and defending against cyber threats 
+                                are major concerns for organizations of all sizes. Our project sets out to explore, execute, and 
+                                evaluate robust cybersecurity solutions tailored to enterprise networks. Through thorough research 
+                                and practical implementation, we aim to strengthen the security of web applications by deploying modern firewalls, 
+                                observant IDS sensors, and defensive network configurations. We'll begin by exploring the layers of 
+                                network defense and demonstrate the effectiveness of our security measures in mitigating cyber 
+                                risks and fortifying digital infrastructures.
+                            </p>
+                            
+                            <!-- goals & topics -->
+                            <ul>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Topic a: Firewall Configurations
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Topic b: Intrusion Detection Systems (IDS)
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Topic c: Rate Limiting
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Topic d: Layered Defense Mechanisms
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Topic e: Security Policies
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======= Statistics Section On Firewall & IDS Security ======= -->
+            <section id="stats" class="stats">
+                <div class="container">
+                    <div class="row counters">
+                        <!-- https://truefort.com/2023-cybersecurity-statistics/ -->
+
+                        <!-- Statistic 1 -->
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>
+                                64% of businesses have already experienced web-based attacks </br><a href="https://www.ponemon.org/" style="color: rgb(200 97 245);">(Ponemon Institute)</a>
+                            </p>
+                            <p>
+                                This statistic emphasizes the importance of investing in web application firewalls, which are essential for 
+                                protecting web-based services against various attacks
+                            </p>
+                        </div>
+
+                        <!-- Statistic 2 -->
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="39" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>
+                                39% of organizations have experienced a malware attack in the past year </br><a href="https://www.ponemon.org/" style="color: rgb(200 97 245);">(Ponemon Institute)</a>
+                            </p>
+                            <p>
+                                This statistic highlights the need for investing in advanced threat detection and response tools, 
+                                including intrusion detection systems (IDS), to quickly identify and contain malware attacks.
+                            </p>
+                        </div>
+
+                        <!-- Statistic 3 -->
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="41" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>
+                                41% of organizations have experienced a ransomware attack in the past year <a href="https://www.proofpoint.com/us/resources" style="color: rgb(200 97 245);">(Proofpoint)</a>
+                            </p>
+                            <p>
+                                Ransomware attacks often involve DDoS (Distributed Denial of Service) tactics to disrupt systems and encrypt data.
+                            </p>
+                        </div>
+
+                        <!-- Statistic 4 -->
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="130000" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>
+                                The average cost of a business email compromise attack is $130,000 </br><a href="https://www.fbi.gov/news/stories/business-e-mail-compromise" style="color: rgb(200 97 245);">(FBI)</a>
+                            </p>
+                            <p>
+                                SSL (Secure Sockets Layer) plays a crucial role in securing email communication by encrypting data transmitted between email servers and clients
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======= Learning Section ======= -->
+            <section id="information" class="information section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Learning</h2>
+                        <p> 
+                            In the learning section, we review crucial aspects of network security, exploring fundamental concepts and practical implementations. 
+                            We begin by examining Firewall Configurations, looking at the architecture and deployment of firewalls to regulate traffic flow and 
+                            enhance network security. Next, we look at Intrusion Detection Systems (IDS), investigating their role in identifying and mitigating 
+                            security threats through real-time monitoring and analysis. Additionally, we discuss Layered Defense Mechanisms, highlighting the 
+                            significance of adopting a multi-layered approach to fortify network defenses against cyber threats. Finally, we explore Security Policies, 
+                            explaining the principles and best practices for enforcing robust security policies.
+                        </p>
+                    </div>
+
+                    <!-- information slider -->
+                    <div class="info-slider swiper" data-aos="fade-up">
+                        <div class="swiper-wrapper">
+                            <!-- content 1 Firewalls -->
+                            <div class="swiper-slide">
+                                <div class="info-item">
+                                    <p>
+                                        <b>Software vs Hardware Firewalls</b></br></br>
+                                        A sofware firewall protects the device it is installed on. However, it has to be trained on what it should and should not block. 
+                                        often taking time to enable and disable applications and folders. A hardware firewall can protect devices that don't necessarily have firewall 
+                                        software available,devices such as printers, medical equipment, telephones or any type of IOT device.
+                                        </br>
+                                        </br>
+                                        A hardware firewall protects you from the outside world, and a software firewall protects a specific device from other internal systems.
+                                        If someone tries to access your systems from the outside, your physical firewall will block them. But if you accidentally click on a virus-laden email
+                                        that's already managed to get into your system, your software firewall on the other computers in your office network may stop it from infecting them.
+                                        Hardware firewalls are helpful in enterprise environments where keeping network performance high is a concern. These devices run on their own dedicated
+                                        hardware and wont bog down other systems.
+                                     </p>
+                                </div>
+                            </div>
+
+                            <!-- content 2 IDS -->
+                            <div class="swiper-slide">
+                                <div class="info-item">
+                                    <p>
+                                        <b>Intrusion Detection Systems (IDS)</b></br></br>
+                                        An Intrusion Detection System (IDS) is a security mechanism designed to monitor and analyze network traffic or system activities for signs 
+                                        of malicious behavior or policy violations. Its primary purpose is to detect and alert administrators or security personnel about potential 
+                                        security incidents in real-time or near-real-time. Intrusion Detection Systems play a crucial role in identifying unauthorized access, misuse of resources, and various 
+                                        forms of cyber threats within an organization's network or IT infrastructure.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- content 3 Rate Limiting-->
+                            <div class="swiper-slide">
+                                <div class="info-item">
+                                    <p>
+                                        <b>Rate Limiting</b></br></br>
+                                        Rate limiting is used to limit the number of requests or connections allowed from a specific user, IP address or application.
+                                        Many attacks can be mitigated such as DDoS (Distributed Denial of Service), API abuse, and content scraping. Rate limiting can also
+                                        prevent the excessive use of resources and allow fair access to all users.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- content 4 Layered defense mechanism -->
+                            <div class="swiper-slide">
+                                <div class="info-item">
+                                    <p>
+                                        <b>Why a layered defense mechanism?</b></br></br>
+                                        Employing a layered defense mechanism is crucial in modern cybersecurity strategies due to its multifaceted approach to 
+                                        safeguarding networks and systems. Operating at the network layer (Layer 3), firewall configurations serve as the initial 
+                                        defense, examining incoming and outgoing traffic according to predefined rules. These rules commonly involve filtering 
+                                        traffic based on IP addresses, ports, and protocols. Serving as security checkpoints, firewalls permit legitimate traffic 
+                                        to proceed while identifying and either obstructing or alerting about suspicious or unauthorized activities. Through their 
+                                        operation at the network layer, firewalls furnish a fundamental level of protection.
+                                        </br>
+                                        </br>
+                                        Intrusion Detection Systems (IDS) complement firewall defenses by actively monitoring network traffic for signs of abnormal 
+                                        behavior or potential security breaches. Operating at both the network layer (Layer 3) and transport layer (Layer 4), 
+                                        IDS analyzes incoming packets for patterns signifying known attack signatures or variations from normal network behavior. 
+                                        Upon detecting suspicious activity, IDS can trigger alerts or take proactive measures to mitigate potential threats, such as 
+                                        blocking malicious IP addresses or quarantining compromised devices. Operating at multiple layers of the OSI model allows 
+                                        IDS to provide enhanced visibility and detection capabilities, helping organizations quickly identify and respond to evolving 
+                                        cybersecurity threats.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- content 5 Security Policies -->
+                            <div class="swiper-slide">
+                                <div class="info-item">
+                                    <p>
+                                        <b>Importance of Security Policies</b></br></br>
+                                        Security policies are crucial for establishing guidelines and best practices for securing digital assets and mitigating potential threats. 
+                                        One key aspect of security policies involves the implementation of secure HTTP headers, which serve as an additional layer of defense 
+                                        against various web-based attacks. Secure HTTP headers allow web servers to communicate security directives to web browsers, enhancing 
+                                        protection against common vulnerabilities such as cross-site scripting (XSS). By configuring HTTP headers to enforce strict security measures, 
+                                        organizations can reduce the risk of exploitation and unauthorized access to web applications and sensitive data. These headers ensure 
+                                        that client-server communications follow specified security protocols, enhancing overall web environment resilience.
+                                        </br>
+                                        </br>
+                                        SSL certificates play a pivotal role in ensuring secure communication between clients and servers by encrypting data exchanged over the network.
+                                        As part of the HTTPS protocol, SSL certificates authenticate the identity of web servers and establish encrypted connections to protect data 
+                                        transmission. Verifying HTTP header values, including supported encryption methods and security flags, is essential for validating the 
+                                        integrity and authenticity of SSL certificates. This approach to SSL certificate management enhances the effectiveness of firewall 
+                                        configurations and IDS by providing additional context for traffic inspection and threat detection. Together, secure HTTP headers and SSL 
+                                        certificate verification improve firewall and IDS capabilities, strengthening network defenses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- ======= Review Questions Section ======= -->
+            <section id="question" class="question">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+
+                        <!-- Use this section to ask one question based on each topic covered -->
+                        <h2>Review Questions</h2>
+                        <p> 
+                            In this section, we'll reflect on the key concepts covered in the learning materials. 
+                            Through a series of concise and targeted questions, you can assess your understanding of topics such as firewall configurations, 
+                            Intrusion Detection Systems (IDS), network monitoring, and security policies.
+                        </p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <!-- Question 1 -->
+                            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#question-list-1">
+                                    Question 1: What are the main differences between software and hardware firewalls? 
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i>
+                                </a>
+                                <div id="question-list-1" class="collapse" data-bs-parent=".question-list">
+                                    <!-- answer -->
+                                    <p> 
+                                        Software firewall protects the device that it is installed on, however, a hardware firewall 
+                                        protects provide protection up to the entire network. The hardware firewall intercepts and 
+                                        inspects traffic entering and leaving the network, effectively acting as a barrier between 
+                                        internal systems and the outside world.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- Question 2 -->
+                            <li data-aos="fade-up" data-aos-delay="200">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#question-list-2" class="collapsed">
+                                    Question 2: Why Intrusion Detection System (IDS) is so crucial for Cybersecurity infrastructure? 
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i>
+                                </a>
+                                <div id="question-list-2" class="collapse" data-bs-parent=".question-list">
+                                    <!-- answer -->
+                                    <p> 
+                                        It detects any signs of suspicious or malicious behavior that may indicate a security breach, unauthorized access, 
+                                        or policy violations including unauthorized access attempts, such as brute-force attacks or password guessing.
+                                        It monitors incoming and outgoing network traffic, as well as system logs and events, to identify anomalies or 
+                                        patterns consistent with known attack signatures. 
+                                        </br>
+                                        It operates in real-time or near-real-time, detecting and alerting administrators or security personnel 
+                                        to potential security incidents as they occur.
+                                        </br>
+                                        Suspicious network scanning, probing, or other activities activities conducted by potential attackers
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- Question 3 -->
+                            <li data-aos="fade-up" data-aos-delay="300">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#question-list-3" class="collapsed">
+                                    Question 3: What is the primary purpose of rate limiting in network security, 
+                                    and how does it contribute to mitigating various types of attacks? 
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i>
+                                </a>
+                                <div id="question-list-3" class="collapse" data-bs-parent=".question-list">
+                                    <!-- answer -->
+                                    <p> 
+                                        Rate limiting in network security serves the primary purpose of restricting the number of requests 
+                                        or connections permitted from specific users, IP addresses, or applications. By imposing limitations 
+                                        on the rate of incoming traffic, rate limiting helps mitigate a variety of attacks, including Distributed 
+                                        Denial of Service (DDoS), API abuse, and content scraping. 
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- Question 4 -->
+                            <li data-aos="fade-up" data-aos-delay="400">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#question-list-4" class="collapsed">
+                                    Question 4: How is layered defense mechanism helpful? 
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i>
+                                </a>
+                                <div id="question-list-4" class="collapse" data-bs-parent=".question-list">
+                                    <!-- answer -->
+                                    <p> 
+                                        It provides comprehensive security coverage by deploying multiple security levels.
+                                        It introduces the concept of defense in depth and emphasizes having multiple layers 
+                                        of defense to protect against breaches on multiple layers. 
+                                        This approach minimizes the likelihood of successful exploitation by making it more challenging 
+                                        for them to penetrate the network.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- Question 5 -->
+                            <li data-aos="fade-up" data-aos-delay="500">
+                                <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#question-list-5" class="collapsed">
+                                    Question 5: What role do security policies play in enhancing cybersecurity? 
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i>
+                                </a>
+                                <div id="question-list-5" class="collapse" data-bs-parent=".question-list">
+                                    <!-- answer -->
+                                    <p> 
+                                        Secure HTTP headers and SSL certificate verification, guided by security policies, bolster firewall and IDS capabilities,
+                                         thereby strengthening network defenses and reducing the risk of cyber-attacks.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======= Demo Section ======= -->
+            <section id="demo" class="demo">
+                <div class="container" data-aos="fade-up">
+                    <!--  -->
+                    <div class="section-title">
+                        <h2>Demonstration</h2>
+                        <p> 
+                            This section serves as a platform for showcasing the functionality and capabilities of our 
+                            firewall and IDS (Intrusion Detection System). We can interact with the server by executing
+                            various commands to view the effectiveness of our firewall and IDS. Through this practical demonstrations, 
+                            users can explore how these security measures operate, understand their features, and learn how to effectively manage and protect their 
+                            network resources.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <!-- terminal container : Log Firewall & IDS information -->
+                        <div class="terminal-container">
+                            <div class="Terminal">
+                                <div class="Terminal__Toolbar">
+                                    <div class="Toolbar__buttons">
+                                        <button class="Toolbar__button Toolbar__button--exit">&#10005;</button>
+                                        <button class="Toolbar__button">&#9472;</button>
+                                        <button class="Toolbar__button">&#9723;</button>
+                                    </div>
+                                    <p class="Toolbar__user">network@demo:~</p>
+                                </div>
+                                
+                                <div class="Terminal__body">
+                                    <!-- `Terminal__text` classes here -->
+                                    <div class="Terminal__Prompt">
+                                        <span class="Prompt__user">network@demo:</span><span class="Prompt__location">~</span><span class="Prompt__dollar">$</span>
+                                        <span class="Prompt__cursor"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ======= Footer Section ======= -->
+        <footer id="footer">
+            <div class="container">
+                <div class="copyright-wrap d-md-flex py-4">
+                    <div class="me-md-auto text-center text-md-start">
+                        <div class="copyright"> &copy; 2024 | <strong>
+                                <span>Firewalls & Intrusion Detection Systems</span>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS Files -->
+        <script src="../static/bs/purecounter/purecounter_vanilla.js"></script>
+        <script src="../static/bs/aos/aos.js"></script>
+        <script src="../static/bs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../static/bs/glightbox/js/glightbox.min.js"></script>
+        <script src="../static/bs/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="../static/bs/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Additional JS Files -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+
+        <!-- Firewall & IDS JS File -->
+        <script src="../static/js/page.js"></script>
+        <script src="../static/js/server.js"></script>
+        
+    </body>
+</html>
