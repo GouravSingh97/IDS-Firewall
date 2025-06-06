@@ -32,10 +32,3 @@ This project demonstrates core cybersecurity defenses in enterprise networks usi
 
 ---
 
-## 🚀 Getting Started
-
-### 🔁 Clone the Repository
-
-```bash
-git clone https://github.com/GouravSingh97/IDS-Firewall.git
-cd IDS-Firewall
